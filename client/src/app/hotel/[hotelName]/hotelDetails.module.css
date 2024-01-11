@@ -1,0 +1,55 @@
+.hotel {
+    color: #fff;
+}
+
+.title {
+    margin: 5rem 0;
+}
+
+.title h1 {
+    font-size: 3.2rem;
+    line-height: 5.1rem;
+    font-weight: 700;
+}
+
+.title span {
+    color: #e8e6e3;
+    font-weight: 300;
+    font-size: 1.8rem;
+    letter-spacing: 0.16rem;
+    text-transform: uppercase;
+    line-height: 2.4rem;
+    align-self: flex-start;
+}
+
+.info {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.info article {
+    width: 1000px;
+    margin-top: 2rem;
+    font-size: 1.8rem;
+}
+
+.info article p {
+    margin-top: 1rem;
+}
+
+.info article p span {
+    color: #9c6623;
+}
+
+.info img {
+    width: 100%;
+    max-width: 1000px;
+    height: 56.2rem;
+    object-fit: cover;
+    border-radius: 2rem;
+    /* border-image: fill 0 linear-gradient(to right, #0001, #000); */
+}
